@@ -1,1 +1,21 @@
 
+init.py pour le package app
+
+"""
+Package 'app' pour l'analyse de documents financiers.
+Contient les modules principaux : upload, analyse, questions, dashboard, utils...
+"""
+
+Optionnel : import direct des modules les plus utilisés pour simplifier les imports externes
+
+from .upload import *
+from .home import *
+from .dashboard import *
+from .chat_ai import *
+from .data_utils import *
+from .ml_models import *
+from .predictions import *
+from .themes import *
+from .advisors import *
+from .about import *
+from .main import *
