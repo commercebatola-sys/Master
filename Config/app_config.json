@@ -1,1 +1,35 @@
-
+{
+  "app": {
+    "title": "Analyse Automatique de Documents Financiers",
+    "icon": "📊",
+    "layout": "wide"
+  },
+  "interface": {
+    "show_text_preview": true,
+    "max_text_length_default": 120000,
+    "max_text_length_absolute": 250000,
+    "allow_user_length_choice": false
+  },
+  "export_options": {
+    "enable_markdown": true,
+    "enable_pdf": true,
+    "pdf_font": "Arial",
+    "pdf_font_size": 12,
+    "pdf_margin": 15
+  },
+  "questions": {
+    "suggested": [
+      "Quel est le chiffre d'affaires ?",
+      "Quelle est la marge nette ?",
+      "Quels sont les principaux risques identifiés ?",
+      "Quelle est la dette nette ?",
+      "Quel est le cash flow opérationnel ?"
+    ],
+    "allow_custom": true,
+    "max_tokens": 500
+  },
+  "ui": {
+    "tabs": ["Upload & Analyse", "Questions"],
+    "use_expander_for_preview": true
+  }
+}
