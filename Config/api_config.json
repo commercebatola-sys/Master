@@ -1,1 +1,33 @@
-
+{
+  "openai": {
+    "api_key": "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",
+    "default_model_summary": "gpt-4o-mini",
+    "default_model_qna": "gpt-4o"
+  },
+  "supabase": {
+    "url": "https://ezwsorvmbiuevykxfotc.supabase.co",
+    "anon_key": "VOTRE_SUPABASE_KEY_ICI",
+    "table_conversations": "conversations"
+  },
+  "pdf": {
+    "max_length_default": 120000,
+    "max_length_absolute": 250000
+  },
+  "export": {
+    "enable_markdown": true,
+    "enable_pdf": true,
+    "pdf_font": "Arial",
+    "pdf_font_size": 12,
+    "pdf_margin": 15
+  },
+  "questions": {
+    "suggested": [
+      "Quel est le chiffre d'affaires ?",
+      "Quelle est la marge nette ?",
+      "Quels sont les principaux risques identifiés ?",
+      "Quelle est la dette nette ?",
+      "Quel est le cash flow opérationnel ?"
+    ],
+    "max_tokens": 500
+  }
+}
